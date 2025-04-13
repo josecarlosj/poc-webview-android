@@ -13,9 +13,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             POCWebViewTheme {
-                WebViewScreen(
-                    context = this
-                )
+                WebViewScreen()
             }
         }
     }
